@@ -1,0 +1,66 @@
+#hero{
+ 
+
+    .hero{
+        h1{
+            text-align: center;
+            padding-bottom: 20px;
+
+        }
+       
+        &--img{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 20px;
+            
+            &__img1{
+                position: relative;
+                img{
+                    padding-bottom: 20px;
+                }
+               &--one{
+                position: absolute;
+               padding: 31px 35px ;
+
+                background: #0082FE;
+                border-top-right-radius: 30px;
+                border-bottom-right-radius: 30px;
+                left: 0;
+                top: 50%;
+      
+                h4{
+                   color: white;
+                   text-align: center;
+                   
+                }
+
+
+            
+               } 
+               button{
+              width: 155px;
+              height: 50px;
+                background: #CC0EF1;
+                border: none;
+                outline: none;
+                color: white;
+                border-radius: 5px;
+           
+
+               }
+            }
+        }
+
+
+        &--h1{
+            h2{
+                text-align: center;
+                font-size: 30px;
+                padding-bottom:20px;
+                padding-top: 50px;
+    
+            }
+        }
+    }
+}

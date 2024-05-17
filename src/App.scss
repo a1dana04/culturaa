@@ -1,0 +1,23 @@
+@import "././assets/styles/Hero.scss";
+@import "././assets/styles/Hero2.scss";
+@import "././assets/styles/Hero3.scss";
+@import "././assets/styles/MediaHero.scss";
+@import "././assets/styles/MediaHero3.scss";
+@import "././assets/styles/MediaHero2.scss";
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+body{
+    background: #EFEFEF;
+}

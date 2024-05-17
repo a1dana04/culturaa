@@ -1,0 +1,42 @@
+@media (max-width: 320px) {
+  #hero3 {
+    .hero3 {
+      h1 {
+        text-align: center;
+        margin-left: 300%;
+        font-size: 50px;
+      }
+      &--input {
+        display: flex;
+        margin-top: 30px;
+        width: 750px;
+        height: 190px;
+        border-radius: 18px;
+        margin-left: 55%;
+        h5 {
+          font-size: 30px;
+          font-weight: 800;
+        }
+        &__crug{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+            width: 80px;
+            height: 80px;
+            border-radius: 60%;
+            // margin-left: 15px;
+
+            button{
+            
+              padding: 20px 25px;
+            }
+        span{
+            font-size: 50px;
+            width: 200px;
+
+        }
+        }
+      }
+    }
+  }
+}

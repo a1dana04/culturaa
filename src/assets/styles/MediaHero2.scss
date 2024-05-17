@@ -1,0 +1,61 @@
+@media (max-width: 320px) {
+    #hero2 .hero2 {
+        position: relative;
+      flex-direction: column; /* Расположение элементов по вертикали */
+      align-items: center; /* Центрирование элементов по вертикали */
+      padding: 20px; /* Изменение отступов для меньших экранов */
+     
+      margin-left: 110%;
+      width: 500px;
+      height: 1200px; /* Автоматическая высота для адаптивной верстки */
+    }
+  
+    #hero2 .hero2--block {
+      text-align: center; /* Центрирование текста для меньших экранов */
+      h1{
+        font-size: 50px;
+      }
+    }
+  
+    #hero2 .hero2--block__img {
+      flex-direction: column; /* Вертикальное расположение кнопок */
+      align-items: center;
+ img{
+    width: 350px;
+  
+ }
+    }
+  
+    #hero2 .hero2--block2 {
+     
+      display: flex;
+      flex-direction: row-reverse;
+      
+   position: absolute;
+   top: 62.5%;
+   left: 19.7%;
+  img{
+    width: 400px;
+    height: 450px;
+    border-radius: 70px;
+
+
+  }
+    }
+  
+   
+    #hero2 .hero2--block3{
+        position: relative;
+        position: absolute;
+        top: 70.5%;
+        left: 10%;
+       
+        &__phone{
+            position: relative;
+            top: 40%;
+            left: 60% ;
+        }
+       
+    }
+  
+  }

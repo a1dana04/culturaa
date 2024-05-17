@@ -1,0 +1,49 @@
+@media (max-width: 320px) {
+  #hero {
+    .hero {
+      h1 {
+        font-size: 80px;
+        margin-left: 90%;
+      }
+
+      &--img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-left: 200%;
+
+        &__img1 {
+          img {
+            width: 800px;
+          }
+          &--one {
+            padding: 50px 100px;
+            border-top-right-radius: 60px;
+            border-bottom-right-radius: 60px;
+            h4 {
+              font-size: 40px;
+              font-weight: 800;
+            }
+          }
+          button {
+            width: 400px;
+            height: 100px;
+            border-radius: 20px;
+            font-size: 40px;
+            margin-left: 25%;
+          }
+        }
+      }
+
+      &--h1 {
+      width: 1000px;
+      // height: 200px;
+        h2 {
+          font-size: 80px;
+          text-align: center;
+        }
+      }
+    }
+  }
+}
